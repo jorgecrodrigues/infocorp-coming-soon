@@ -6,6 +6,7 @@ body {
 body {
     margin: 0;
     font-size: 12px;
+    text-align: center
 }
 
 body svg {
@@ -21,12 +22,15 @@ body svg {
 }
 
 .description {
+    padding: .5rem 1rem .3rem 1rem;
+    background: black;
     font-family: 'Courier New', Courier, monospace;
-    text-align: center
+    text-align: center;
+    color: white;
+    display: inline-block
 }
 
 .coming_soon {
-    margin: 0;
     font-size: 1rem;
     font-family: 'Courier New', Courier, monospace;
     text-align: center
