@@ -16,13 +16,27 @@ body {
     display: block;
 }
 
+@media (max-width:1024px) {
+    .infocorp {
+        width: 80%;
+    }
+}
+
 .description {
     padding: .5rem 1rem .3rem 1rem;
     background: black;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
     text-align: center;
     color: white;
     display: inline-block
+}
+
+@media (max-width:1024px) {
+    .description {
+        margin: auto .5rem;
+        font-size: .8rem;
+    }
 }
 
 .coming_soon {
@@ -35,14 +49,21 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 50%;
     position: fixed;
     z-index: -9;
 }
 
+@media (max-width:1024px) {
+    .shape-wrap {
+        height: 20%;
+    }
+}
+
 .shape-wrap .shape {
-    /*fill: #d5e6ff*/
-    fill: rgb(163, 229, 244)
+    width: 100%;
+    height: 100%;
+    fill: #111
 }
 
 .box {
