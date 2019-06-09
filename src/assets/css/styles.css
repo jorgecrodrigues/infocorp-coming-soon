@@ -1,0 +1,62 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-size: 12px;
+}
+
+body svg {
+    opacity: 0;
+    transition: 1500ms opacity ease-in;
+}
+
+.infocorp {
+    margin: auto;
+    width: 50%;
+    max-width: 600px;
+    display: block;
+}
+
+.description {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center
+}
+
+.coming_soon {
+    margin: 0;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center
+}
+
+.shape-wrap {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -9;
+}
+
+.shape-wrap .shape {
+    /*fill: #d5e6ff*/
+    fill: rgb(163, 229, 244)
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.box-middle {
+    width: 100%;
+    align-self: center
+}
+
+.loaded svg {
+    opacity: 1;
+}
