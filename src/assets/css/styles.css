@@ -9,11 +9,6 @@ body {
     text-align: center
 }
 
-body svg {
-    opacity: 0;
-    transition: 1500ms opacity ease-in;
-}
-
 .infocorp {
     margin: auto;
     width: 50%;
@@ -59,8 +54,4 @@ body svg {
 .box-middle {
     width: 100%;
     align-self: center
-}
-
-.loaded svg {
-    opacity: 1;
 }
