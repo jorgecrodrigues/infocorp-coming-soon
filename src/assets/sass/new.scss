@@ -289,4 +289,34 @@ body {
       }
     }
   }
+
+  &__footer {
+    overflow: hidden;
+    &__container {
+      position: relative;
+
+      &:before {
+        top: 0;
+        right: -50%;
+        width: 50%;
+        height: 100%;
+        background: black;
+        content: "";
+        position: absolute;
+      }
+
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      background: black;
+      color: white;
+    }
+
+    &__row {
+      align-items: center;
+    }
+
+    &__contact {
+      text-align: center;
+    }
+  }
 }
