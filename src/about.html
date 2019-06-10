@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Infocorp - Nosso Time</title>
+    <title>Infocorp - Sobre nós</title>
 
     <script>
         // Este polyfill adiciona suporte para todos os navegadores, suportando ES5.
@@ -48,6 +48,18 @@
 
     <!-- Folha de estilo padrão -->
     <link rel="stylesheet" href="./assets/sass/new.scss">
+
+    <!-- Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141734158-1"></script>
+    <script>
+        if (window.location.host === "infocorpjr.com") {
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'UA-141734158-1');
+        }
+    </script>
 </head>
 
 <body class="about">
